@@ -1,14 +1,14 @@
 import type { AWS } from "@serverless/typescript";
 
 const serverlessConfiguration: AWS = {
-  service: "test-service",
+  service: "younha-archive",
   frameworkVersion: "3",
   provider: {
     name: "aws",
     runtime: "nodejs18.x",
     region: "ap-northeast-2",
     apiGateway: {
-      restApiId: process.env.AWS_API_GATEWAY_API_KEY_ID,
+      restApiId: "fff3g1wgdl",
     },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1",
