@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Typescript
+      - name: Install typescript
         run: npm install -g typescript ts-node
 
       - name: Install serverless
